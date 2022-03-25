@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChatApplication">
         <activity
+            android:name=".Message"
+            android:exported="false" />
+        <activity
             android:name=".PassengersLocation"
             android:exported="false" />
         <activity
